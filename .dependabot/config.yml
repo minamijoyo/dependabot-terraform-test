@@ -2,5 +2,8 @@
 version: 1
 update_configs:
   - package_manager: "terraform"
-    directory: "/live"
+    directory: "/live/prod"
+    update_schedule: "daily"
+  - package_manager: "terraform"
+    directory: "/live/dev"
     update_schedule: "daily"
