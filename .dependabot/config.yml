@@ -1,0 +1,6 @@
+# https://dependabot.com/docs/config-file/
+version: 1
+update_configs:
+  - package_manager: "terraform"
+    directory: "/live"
+    update_schedule: "live"
